@@ -1,4 +1,4 @@
-module github.com/lvaylet/cloud-monitoring-backend
+module github.com/lvaylet/golang-cloud-monitoring-backend
 
 go 1.20
 
