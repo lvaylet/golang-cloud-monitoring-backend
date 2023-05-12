@@ -103,6 +103,7 @@ func readTimeSeriesValue(w io.Writer, projectID, metricType string) error {
 }
 
 func main() {
-	readTimeSeriesAlign(os.Stdout, "slo-generator-demo")
-	readTimeSeriesValue(os.Stdout, "slo-generator-demo", "run.googleapis.com/request_count")
+	var projectID = "slo-generator-demo"
+	readTimeSeriesAlign(os.Stdout, projectID)
+	readTimeSeriesValue(os.Stdout, projectID, "run.googleapis.com/request_count")
 }
