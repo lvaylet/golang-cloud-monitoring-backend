@@ -3,7 +3,7 @@ module github.com/lvaylet/golang-cloud-monitoring-backend
 go 1.20
 
 require (
-	cloud.google.com/go/monitoring v1.19.0
+	cloud.google.com/go/monitoring v1.20.0
 	github.com/golang/protobuf v1.5.4
 	google.golang.org/api v0.186.0
 )
@@ -33,7 +33,7 @@ require (
 	golang.org/x/time v0.5.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20240617180043-68d350f18fd4 // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20240610135401-a8a62080eff3 // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20240617180043-68d350f18fd4 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240617180043-68d350f18fd4 // indirect
 	google.golang.org/grpc v1.64.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
