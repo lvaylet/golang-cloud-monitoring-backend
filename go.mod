@@ -3,7 +3,7 @@ module github.com/lvaylet/golang-cloud-monitoring-backend
 go 1.20
 
 require (
-	cloud.google.com/go/monitoring v1.20.0
+	cloud.google.com/go/monitoring v1.20.1
 	github.com/golang/protobuf v1.5.4
 	google.golang.org/api v0.187.0
 )
