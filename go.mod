@@ -3,13 +3,13 @@ module github.com/lvaylet/golang-cloud-monitoring-backend
 go 1.20
 
 require (
-	cloud.google.com/go/monitoring v1.20.3
+	cloud.google.com/go/monitoring v1.20.4
 	github.com/golang/protobuf v1.5.4
 	google.golang.org/api v0.191.0
 )
 
 require (
-	cloud.google.com/go/auth v0.7.3 // indirect
+	cloud.google.com/go/auth v0.8.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.3 // indirect
 	cloud.google.com/go/compute/metadata v0.5.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
