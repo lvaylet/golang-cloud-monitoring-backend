@@ -2,7 +2,7 @@ module github.com/lvaylet/golang-cloud-monitoring-backend
 
 go 1.21
 
-toolchain go1.23.2
+toolchain go1.23.3
 
 require (
 	cloud.google.com/go/monitoring v1.21.2
