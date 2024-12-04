@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.23.4
 
 require (
-	cloud.google.com/go/monitoring v1.21.2
+	cloud.google.com/go/monitoring v1.22.0
 	github.com/golang/protobuf v1.5.4
 	google.golang.org/api v0.209.0
 )
