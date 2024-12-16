@@ -7,13 +7,13 @@ toolchain go1.23.4
 require (
 	cloud.google.com/go/monitoring v1.22.0
 	github.com/golang/protobuf v1.5.4
-	google.golang.org/api v0.211.0
+	google.golang.org/api v0.212.0
 )
 
 require (
-	cloud.google.com/go/auth v0.12.1 // indirect
+	cloud.google.com/go/auth v0.13.0 // indirect
 	cloud.google.com/go/auth/oauth2adapt v0.2.6 // indirect
-	cloud.google.com/go/compute/metadata v0.5.2 // indirect
+	cloud.google.com/go/compute/metadata v0.6.0 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/s2a-go v0.1.8 // indirect
