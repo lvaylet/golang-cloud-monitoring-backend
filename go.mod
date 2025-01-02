@@ -5,7 +5,7 @@ go 1.21
 toolchain go1.23.4
 
 require (
-	cloud.google.com/go/monitoring v1.22.0
+	cloud.google.com/go/monitoring v1.22.1
 	github.com/golang/protobuf v1.5.4
 	google.golang.org/api v0.214.0
 )
@@ -33,6 +33,6 @@ require (
 	google.golang.org/genproto v0.0.0-20241118233622-e639e219e697 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241118233622-e639e219e697 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241209162323-e6fa225c2576 // indirect
-	google.golang.org/grpc v1.67.1 // indirect
+	google.golang.org/grpc v1.67.3 // indirect
 	google.golang.org/protobuf v1.35.2 // indirect
 )
